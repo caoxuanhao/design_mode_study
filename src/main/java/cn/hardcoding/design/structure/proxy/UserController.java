@@ -8,4 +8,5 @@ package cn.hardcoding.design.structure.proxy;
  */
 public interface UserController {
     void doSomething();
+    void doOtherthing();
 }

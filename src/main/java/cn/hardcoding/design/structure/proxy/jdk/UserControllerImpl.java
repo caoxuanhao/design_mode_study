@@ -13,5 +13,11 @@ public class UserControllerImpl implements UserController {
     @Override
     public void doSomething() {
         System.out.println("I`m UserControllerImpl");
+        doOtherthing();
+    }
+
+    @Override
+    public void doOtherthing() {
+        System.out.println("Do other thing.");
     }
 }
