@@ -10,6 +10,7 @@ import cn.hardcoding.design.structure.proxy.UserController;
  */
 public class UserControllerImpl implements UserController {
 
+    @Override
     public void doSomething() {
         System.out.println("I`m UserControllerImpl");
     }
